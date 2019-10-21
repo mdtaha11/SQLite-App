@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/country"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="130dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/capital"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:layout_marginStart="210dp" />
+
+
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_width="158dp"
+        android:layout_height="72dp"
+
+        android:layout_centerInParent="true"
+        android:text="@string/add" />
+
+
+    <EditText
+        android:id="@+id/edit_country"
+        android:layout_width="173dp"
+        android:layout_height="56dp"
+        android:hint="@string/type"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:importantForAutofill="no"
+        android:layout_marginStart="20dp" />
+
+    <EditText
+        android:id="@+id/edit_capital"
+        android:layout_width="173dp"
+        android:hint="@string/type"
+        android:layout_height="56dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_marginStart="210dp"
+        android:importantForAutofill="no" />
+</RelativeLayout>
